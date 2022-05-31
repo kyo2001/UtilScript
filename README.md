@@ -5,7 +5,7 @@ Resize RaspberryPi image
 wsl mount drive  
 ```
 sudo mkdir /mnt/xxx
-sudo mount -t devfs <drive letter>: /mnt/xxx
+sudo mount -t drvfs <drive letter>: /mnt/xxx
 ```
 wsl unmnt drive 
 ```
